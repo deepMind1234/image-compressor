@@ -1,6 +1,6 @@
 # Image Compressor
 
-A no-frills command-line tool to compress images to a target size (JPEG, PNG, WebP). I build this because I was tired of using online image compressors and my all the photos from my Pixel would exceed the file requirement for every use case. I leveraged AI for this and choose Rust as renouned for it's performance.
+A no-frills command-line tool to compress images to a target size (JPEG, PNG, WebP). I build this because I was tired of using online image compressors and all the photos from my Pixel would exceed the file requirement for every use case. I leveraged AI for this and chose Rust as renowned for it's performance and safety.
 
 ## Download
 
