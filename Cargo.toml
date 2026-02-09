@@ -1,0 +1,16 @@
+[package]
+name = "image-compressor"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "compress"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0.100"
+clap = { version = "4.5.57", features = ["derive"] }
+image = { version = "0.25.9", features = ["webp", "jpeg", "png"] }
+oxipng = "10.1.0"
+parse-size = "1.1.0"
+zune-jpeg = "0.5.12"
